@@ -5,19 +5,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F77A2C68-D45C-4947-982A-5626C2909C5F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{583E584D-3CF9-4044-9F96-E651A2FDFD43}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SourceLinkTest</RootNamespace>
-    <AssemblyName>SourceLinkTest</AssemblyName>
+    <RootNamespace>AbsoluteMappings</RootNamespace>
+    <AssemblyName>AbsoluteMappings</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <SourceLink>SourceLink.json</SourceLink>
@@ -28,7 +26,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -47,29 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
     <None Include="SourceLink.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AbsoluteMappings\AbsoluteMappings.csproj">
-      <Project>{583e584d-3cf9-4044-9f96-e651a2fdfd43}</Project>
-      <Name>AbsoluteMappings</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BadSourceLinkEntries\BadSourceLinkEntries.csproj">
-      <Project>{8425d40f-9a90-4b7a-ba93-5bc76427bcb2}</Project>
-      <Name>BadSourceLinkEntries</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BadSourceLink\BadSourceLink.csproj">
-      <Project>{2e66d426-9267-43e3-b370-4ffdf5fff728}</Project>
-      <Name>BadSourceLink</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

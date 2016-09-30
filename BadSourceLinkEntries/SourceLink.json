@@ -1,0 +1,9 @@
+﻿{
+  "documents": {
+    "C:\\foo\\*": "https://foo/bar.cs",
+    "C:\\foo\\bar.cs": "https://foo/*",
+    "C:\\foo\\*\\bar.cs": "https://foo/*/bar.cs",
+    "C:\\foo\\bar\\*": "http://foo//*?query=parameter",
+    "C:\\Users\\chuckr\\Documents\\visual studio 2015\\Projects\\SourceLinkTest\\BadSourceLinkEntries\\*": "https://this_is_a_super_bogus_url.com/*"
+  }
+}

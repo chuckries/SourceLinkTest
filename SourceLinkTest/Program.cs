@@ -26,6 +26,8 @@ namespace SourceLinkTest
             }
 
             BadSourceLink.Class1.Method();
+            BadSourceLinkEntries.Class1.Method();
+            AbsoluteMappings.Class1.Method();
         }
     }
 }
