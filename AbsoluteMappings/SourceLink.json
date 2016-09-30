@@ -1,5 +1,6 @@
 ﻿{
   "documents": {
-    "C:\\users\\chuckr\\documents\\visual studio 2015\\Projects\\SourceLinkTest\\AbsoluteMappings\\Class1.cs":
+    "C:\\users\\chuckr\\documents\\visual studio 2015\\Projects\\SourceLinkTest\\AbsoluteMappings\\Class1.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/3994b941f2ff7b808db20b1d830de5efffe7dad7/AbsoluteMappings/Class1.cs",
+    "C:\\users\\chuckr\\documents\\visual studio 2015\\Projects\\SourceLinkTest\\AbsoluteMappings\\Class2.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/3994b941f2ff7b808db20b1d830de5efffe7dad7/AbsoluteMappings/Class2.cs"
   }
 }
