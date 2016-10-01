@@ -29,6 +29,7 @@ namespace SourceLinkTest
             BadSourceLinkEntries.Class1.Method();
             AbsoluteMappings.Class1.Method();
             AbsoluteMappings.Class2.Method();
+            EmbeddedPdb.Class1.Method();
         }
     }
 }
