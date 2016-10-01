@@ -11,25 +11,28 @@ namespace SourceLinkTest
     {
         static void Main(string[] args)
         {
-            while (!System.Diagnostics.Debugger.IsAttached)
+            while (true)
             {
-                Thread.Sleep(100);
-            }
+                while (!System.Diagnostics.Debugger.IsAttached)
+                {
+                    Thread.Sleep(100);
+                }
 
-            try
-            {
-                throw new Exception();
-            }
-            catch (Exception e)
-            {
+                try
+                {
+                    throw new Exception();
+                }
+                catch (Exception e)
+                {
 
-            }
+                }
 
-            BadSourceLink.Class1.Method();
-            BadSourceLinkEntries.Class1.Method();
-            AbsoluteMappings.Class1.Method();
-            AbsoluteMappings.Class2.Method();
-            EmbeddedPdb.Class1.Method();
+                BadSourceLink.Class1.Method();
+                BadSourceLinkEntries.Class1.Method();
+                AbsoluteMappings.Class1.Method();
+                AbsoluteMappings.Class2.Method();
+                EmbeddedPdb.Class1.Method();
+            }
         }
     }
 }
