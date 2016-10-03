@@ -33,6 +33,7 @@ namespace SourceLinkTest
                 AbsoluteMappings.Absolute2.Method();
                 EmbeddedPdb.EmbeddedPdb.Method();
                 VSOSourceLink.VSOSourceLink.Method();
+                PortableNoSourceLink.PortableNoSourceLink.Method();
             }
         }
     }
