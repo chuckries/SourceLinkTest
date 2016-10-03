@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmbeddedPdb
+namespace VSOSourceLink
 {
-    public class Class1
+    public class VSOSourceLink
     {
         public static void Method()
         {
@@ -14,7 +14,7 @@ namespace EmbeddedPdb
             {
                 throw new Exception();
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
             }

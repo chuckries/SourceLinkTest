@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsoluteMappings", "Absolut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedPdb", "EmbeddedPdb\EmbeddedPdb.csproj", "{57232251-88A7-4B00-A279-B7F55083CEB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOSourceLink", "VSOSourceLink\VSOSourceLink.csproj", "{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{57232251-88A7-4B00-A279-B7F55083CEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57232251-88A7-4B00-A279-B7F55083CEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57232251-88A7-4B00-A279-B7F55083CEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

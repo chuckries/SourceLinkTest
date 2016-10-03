@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SourceLinkTest
 {
-    class Program
+    class SourceLinkTest
     {
         static void Main(string[] args)
         {
@@ -27,11 +27,12 @@ namespace SourceLinkTest
 
                 }
 
-                BadSourceLink.Class1.Method();
-                BadSourceLinkEntries.Class1.Method();
-                AbsoluteMappings.Class1.Method();
-                AbsoluteMappings.Class2.Method();
-                EmbeddedPdb.Class1.Method();
+                BadSourceLink.BadSourceLink.Method();
+                BadSourceLinkEntries.BadSourceLinkEntries.Method();
+                AbsoluteMappings.Absolute1.Method();
+                AbsoluteMappings.Absolute2.Method();
+                EmbeddedPdb.EmbeddedPdb.Method();
+                VSOSourceLink.VSOSourceLink.Method();
             }
         }
     }

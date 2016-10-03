@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbsoluteMappings
+namespace BadSourceLinkEntries
 {
-    public class Class1
+    public class BadSourceLinkEntries
     {
         public static void Method()
         {
@@ -14,7 +14,7 @@ namespace AbsoluteMappings
             {
                 throw new Exception();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
 
             }

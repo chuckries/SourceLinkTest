@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbsoluteMappings
 {
-    public class Class2
+    public class Absolute2
     {
         public static void Method()
         {

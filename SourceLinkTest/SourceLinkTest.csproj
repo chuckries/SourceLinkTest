@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="SourceLinkTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +73,10 @@
     <ProjectReference Include="..\EmbeddedPdb\EmbeddedPdb.csproj">
       <Project>{57232251-88a7-4b00-a279-b7f55083ceb4}</Project>
       <Name>EmbeddedPdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VSOSourceLink\VSOSourceLink.csproj">
+      <Project>{6e0e8a40-e836-459e-bc78-2ad9231f0bfc}</Project>
+      <Name>VSOSourceLink</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

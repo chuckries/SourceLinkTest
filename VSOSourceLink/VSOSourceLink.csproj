@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8425D40F-9A90-4B7A-BA93-5BC76427BCB2}</ProjectGuid>
+    <ProjectGuid>{6E0E8A40-E836-459E-BC78-2AD9231F0BFC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BadSourceLinkEntries</RootNamespace>
-    <AssemblyName>BadSourceLinkEntries</AssemblyName>
+    <RootNamespace>VSOSourceLink</RootNamespace>
+    <AssemblyName>VSOSourceLink</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BadSourceLinkEntries.cs" />
+    <Compile Include="VSOSourceLink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

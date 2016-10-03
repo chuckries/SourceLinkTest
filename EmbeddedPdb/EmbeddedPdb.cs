@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BadSourceLinkEntries
+namespace EmbeddedPdb
 {
-    public class Class1
+    public class EmbeddedPdb
     {
         public static void Method()
         {
@@ -14,7 +14,7 @@ namespace BadSourceLinkEntries
             {
                 throw new Exception();
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }
