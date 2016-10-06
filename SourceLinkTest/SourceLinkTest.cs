@@ -34,6 +34,7 @@ namespace SourceLinkTest
                 EmbeddedPdb.EmbeddedPdb.Method();
                 VSOSourceLink.VSOSourceLink.Method();
                 PortableNoSourceLink.PortableNoSourceLink.Method();
+                Timeout.Timeout.Method();
             }
         }
     }
