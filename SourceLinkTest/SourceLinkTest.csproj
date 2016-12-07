@@ -95,6 +95,10 @@
       <Project>{57232251-88a7-4b00-a279-b7f55083ceb4}</Project>
       <Name>EmbeddedPdb</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HttpSourceLink\HttpSourceLink.csproj">
+      <Project>{5b34cf39-d289-415b-9d7c-8c0cdb620347}</Project>
+      <Name>HttpSourceLink</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PortableNoSourceLink\PortableNoSourceLink.csproj">
       <Project>{1d8ddc98-1ec6-442f-aab7-3903f5c3a4e3}</Project>
       <Name>PortableNoSourceLink</Name>
