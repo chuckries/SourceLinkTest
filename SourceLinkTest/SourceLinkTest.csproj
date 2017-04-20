@@ -99,6 +99,10 @@
       <Project>{5b34cf39-d289-415b-9d7c-8c0cdb620347}</Project>
       <Name>HttpSourceLink</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MSBuildTaskTest\MSBuildTaskTest.csproj">
+      <Project>{39fef6dc-69f0-45e0-8397-34ea815adf4c}</Project>
+      <Name>MSBuildTaskTest</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PortableNoSourceLink\PortableNoSourceLink.csproj">
       <Project>{1d8ddc98-1ec6-442f-aab7-3903f5c3a4e3}</Project>
       <Name>PortableNoSourceLink</Name>

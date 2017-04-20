@@ -27,6 +27,7 @@ namespace SourceLinkTest
 
                 }
 
+                MSBuildTaskTest.Class1.Method();
                 BadSourceLink.BadSourceLink.Method();
                 BadSourceLinkEntries.BadSourceLinkEntries.Method();
                 AbsoluteMappings.Absolute1.Method();

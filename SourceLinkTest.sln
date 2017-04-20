@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26419.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinkTest", "SourceLinkTest\SourceLinkTest.csproj", "{F77A2C68-D45C-4947-982A-5626C2909C5F}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeout", "Timeout\Timeout.csproj", "{F65CD6C3-3174-4DBD-8C14-6DD2E7FED47B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpSourceLink", "HttpSourceLink\HttpSourceLink.csproj", "{5B34CF39-D289-415B-9D7C-8C0CDB620347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuildTaskTest", "MSBuildTaskTest\MSBuildTaskTest.csproj", "{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{5B34CF39-D289-415B-9D7C-8C0CDB620347}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B34CF39-D289-415B-9D7C-8C0CDB620347}.Release|x64.ActiveCfg = Release|Any CPU
 		{5B34CF39-D289-415B-9D7C-8C0CDB620347}.Release|x64.Build.0 = Release|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Debug|x64.Build.0 = Debug|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Release|x64.ActiveCfg = Release|Any CPU
+		{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
