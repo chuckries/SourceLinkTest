@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26419.0
+VisualStudioVersion = 15.0.26421.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinkTest", "SourceLinkTest\SourceLinkTest.csproj", "{F77A2C68-D45C-4947-982A-5626C2909C5F}"
 EndProject
@@ -22,6 +22,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpSourceLink", "HttpSourceLink\HttpSourceLink.csproj", "{5B34CF39-D289-415B-9D7C-8C0CDB620347}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuildTaskTest", "MSBuildTaskTest\MSBuildTaskTest.csproj", "{39FEF6DC-69F0-45E0-8397-34EA815ADF4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E8BD111-F3C2-4AE1-995B-B59555E0263B}"
+	ProjectSection(SolutionItems) = preProject
+		sourcelink.props = sourcelink.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
