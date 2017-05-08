@@ -91,6 +91,10 @@
       <Project>{2e66d426-9267-43e3-b370-4ffdf5fff728}</Project>
       <Name>BadSourceLink</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesktopPdb\DesktopPdb.csproj">
+      <Project>{bca7da6b-43c7-433b-8b31-0c35ce8380a7}</Project>
+      <Name>DesktopPdb</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EmbeddedPdb\EmbeddedPdb.csproj">
       <Project>{57232251-88a7-4b00-a279-b7f55083ceb4}</Project>
       <Name>EmbeddedPdb</Name>

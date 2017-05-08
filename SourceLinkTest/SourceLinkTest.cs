@@ -27,6 +27,7 @@ namespace SourceLinkTest
 
                 }
 
+                DesktopPdb.DesktopPdb.Method();
                 MSBuildTaskTest.Class1.Method();
                 BadSourceLink.BadSourceLink.Method();
                 BadSourceLinkEntries.BadSourceLinkEntries.Method();
