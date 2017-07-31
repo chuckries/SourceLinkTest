@@ -14,7 +14,7 @@ namespace AbsoluteMappings
             {
                 throw new Exception();
             }
-            catch(Exception e)
+            catch (Exception)
             {
 
             }

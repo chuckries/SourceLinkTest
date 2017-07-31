@@ -10,7 +10,14 @@ namespace HttpSourceLink
     {
         public static void Method()
         {
-            throw new Exception();
+            try
+            {
+                throw new Exception();
+            }
+            catch (Exception)
+            {
+
+            }
         }
     }
 }

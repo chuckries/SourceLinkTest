@@ -1,5 +1,5 @@
 ﻿{
   "document": {
-    "C:\\Users\\chuckr\\Documents\\visual studio 2015\\Projects\\SourceLinkTest\\HttpSourceLink\\*": "http://this_is_an_http_url.com/*"
+    "C:\\SourceLinkTest\\HttpSourceLink\\*": "http://this_is_an_http_url.com/*"
   }
 }

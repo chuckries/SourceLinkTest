@@ -14,7 +14,7 @@ namespace Timeout
             {
                 throw new Exception();
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }

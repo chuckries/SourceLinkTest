@@ -14,7 +14,7 @@ namespace BadSourceLinkEntries
             {
                 throw new Exception();
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }

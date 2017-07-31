@@ -1,6 +1,6 @@
 ﻿{
   "documents": {
-    "C:\\users\\chuckr\\documents\\visual studio 2015\\Projects\\SourceLinkTest\\AbsoluteMappings\\Absolute1.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/dfe5ead8a2069aa4ad74ad1ab66a8eae31d75099/AbsoluteMappings/Absolute1.cs",
-    "C:\\users\\chuckr\\documents\\visual studio 2015\\Projects\\SourceLinkTest\\AbsoluteMappings\\Absolute2.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/dfe5ead8a2069aa4ad74ad1ab66a8eae31d75099/AbsoluteMappings/Absolute2.cs"
+    "C:\\SourceLinkTest\\AbsoluteMappings\\Absolute1.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/63568867ce2e70b9c99cd154ddd759f44b51cf68/AbsoluteMappings/Absolute1.cs",
+    "C:\\SourceLinkTest\\AbsoluteMappings\\Absolute2.cs": "https://raw.githubusercontent.com/chuckries/SourceLinkTest/63568867ce2e70b9c99cd154ddd759f44b51cf68/AbsoluteMappings/Absolute2.cs"
   }
 }
